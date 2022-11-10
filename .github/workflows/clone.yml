@@ -14,4 +14,4 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           script: |
-              git@github.com:antsquill/CMSC389T-Web-Template.git
+              git clone git@github.com:antsquill/CMSC389T-Web-Template.git
