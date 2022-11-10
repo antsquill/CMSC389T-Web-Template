@@ -14,6 +14,4 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           script: |
-              touch ~/.ssh/known_hosts
-              ssh-keyscan -H github.com >> ~/.ssh/known_hosts
-              git clone https://github.com/antsquill/CMSC389T-Web-Template
+              git@github.com:antsquill/CMSC389T-Web-Template.git
